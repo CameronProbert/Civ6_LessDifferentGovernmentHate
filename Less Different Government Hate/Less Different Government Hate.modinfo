@@ -11,14 +11,14 @@
 		<File>Rules.sql</File>
 	</Files>  
 	<Settings>
-		<Custom id="LessAnnoyingAI">
+		<Custom id="LessDifferentGovernmentHate">
 			<Items>
 				<Component>LessDifferentGovernmentHateComponent</Component>
 			</Items>
 		</Custom>
 	</Settings>	
 	<Components>
-		<UpdateDatabase id="LessAnnoyingAI">
+		<UpdateDatabase id="LessDifferentGovernmentHate">
 			<Properties>
 				<Name>Less Different Government Hate</Name>
 			</Properties>
