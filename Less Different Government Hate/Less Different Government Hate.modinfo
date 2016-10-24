@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="54a58bee-c255-45b4-ae34-5861c1154f17">
+	<Properties>
+		<Name>Less Different Government Hate</Name>
+		<Stability>Beta</Stability>
+		<Teaser>Less Different Government Hate</Teaser>
+		<Description>AI hates different governments less</Description>
+		<Authors>Cameron Probert</Authors>
+	</Properties>
+	<Files>
+		<File>Rules.sql</File>
+	</Files>  
+	<Settings>
+		<Custom id="LessAnnoyingAI">
+			<Items>
+				<Component>LessDifferentGovernmentHateComponent</Component>
+			</Items>
+		</Custom>
+	</Settings>	
+	<Components>
+		<UpdateDatabase id="LessAnnoyingAI">
+			<Properties>
+				<Name>Less Different Government Hate</Name>
+			</Properties>
+			<Items>
+				<File>Rules.sql</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+</Mod>
